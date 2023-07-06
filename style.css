@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+  --clr-primary: hsl(322, 100%, 66%);
+  --clr-neutral-600: hsl(192, 100%, 9%);
+  --clr-neutral-500: hsl(208, 11%, 55%);
+  --clr-neutral-200: hsl(193, 100%, 96%);
+
+  --fs: 1.001rem;
+
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  --ff-body: "Poppins", sans-serif;
+  --ff-head: "Open Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+main {
+  margin-bottom: 5rem;
+  padding: 4rem 0;
+  position: relative;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-weight: var(--fw-400);
+  font-size: var(--fs);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-head);
+  font-weight: var(--fw-700);
+  color: var(--clr-neutral-600);
+}
+
+header {
+  background-image: url("/images/bg-hero-mobile.svg");
+  background-image: url("/images/bg-hero-mobile.svg"),
+    linear-gradient(to bottom, #ffff, rgb(211, 231, 239));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  /* padding: 1rem 1rem 2rem; */
+  z-index: 1;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero p {
+  margin: 2rem 0;
+  line-height: 2;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+  margin-bottom: 3.2rem;
+}
+
+nav > img {
+  width: 8rem;
+}
+
+.btn-white {
+  background-color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  font-family: var(--ff-body);
+  font-weight: var(--fw-600);
+  cursor: pointer;
+  padding: 7px 20px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 10px -6px rgba(0, 0, 0, 0.75);
+}
+
+.btn-pink {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-200);
+  border: none;
+  font-family: var(--ff-body);
+  font-weight: var(--fw-500);
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 30px;
+  letter-spacing: 1.2px;
+  box-shadow: 5px 5px 10px -6px rgba(0, 0, 0, 0.75);
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.card {
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  line-height: 1.8;
+}
+
+.cardText > p {
+  color: var(--clr-neutral-500);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.floatItem {
+  background-color: #fff;
+  width: min(90%, 50rem);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 5px 5px 16px -6px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: -11rem;
+}
+
+.floatItem h3 {
+  margin-bottom: 2rem;
+  color: var(--clr-neutral-600);
+  font-weight: var(--fw-600);
+  font-family: var(--ff-body);
+  font-size: 1rem;
+}
+
+footer {
+  background-color: var(--clr-neutral-600);
+  color: var(--clr-neutral-200);
+  padding: 10rem 0 3rem;
+  font-size: 1.2rem;
+}
+
+.footer--items {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+}
+
+.footer--links a {
+  display: block;
+  text-decoration: none;
+  color: var(--clr-neutral-200);
+  cursor: pointer;
+  margin-bottom: .5rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: .6rem;
+  gap: 1rem;
+}
+
+.top img {
+  align-self: flex-start;
+}
+
+.container{
+    margin: 0 1rem 0;
+}
+
+.contacts > img {
+  margin-bottom: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  text-align: center;
+  gap: 2rem;
+}
+
+.socials {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 40em) {
+  header {
+    background-image: url("/images/bg-hero-desktop.svg"),
+      linear-gradient(to bottom, #ffff, rgb(211, 231, 239));
+  }
+
+  nav > img {
+    width: 10rem;
+  }
+
+  .hero {
+    text-align: left;
+  }
+
+  .footer--contact {
+    flex-direction: row;
+  }
+
+  .card {
+    text-align: left;
+    padding: 1rem 10rem;
+    line-height: 2;
+  }
+
+  .hero--text {
+    padding-right: 7rem;
+  }
+
+  .hero--text > h1 {
+    font-size: 3rem;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: min(90%, 90rem);
+  
+  }
+
+  .split {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .split > * {
+    flex-basis: 100%;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .btn-white {
+    padding: 10px 30px;
+  }
+
+  .footer--items {
+    flex-direction: row;
+    line-height: 1.8;
+    gap: 7rem;
+  }
+
+  .footer--items > * {
+    flex-basis: 100%;
+    line-height: 2;
+  }
+
+  .footer--links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icons {
+    gap: 2rem;
+  }
+
+  .social {
+    justify-content: space-between;
+    text-align: left;
+    margin-top: unset;
+  }
+
+}
