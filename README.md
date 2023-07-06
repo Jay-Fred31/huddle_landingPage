@@ -39,8 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [](https://huddle-landing-page-eight-theta.vercel.app/)
 
 ## My process
 
@@ -71,7 +70,7 @@ This project on FrontEnd Mentor has other level of diffulty and I intend to lear
 
 - Website - [Joyce Fred]
 - Frontend Mentor - [@Jay-Fred31](https://www.frontendmentor.io/profile/Jay-Fred31)
-- Twitter - [@yourusername](https://www.twitter.com/joycefdev)
+- Twitter - [@joycefdev](https://www.twitter.com/joycefdev)
 
 
 ## Acknowledgments
