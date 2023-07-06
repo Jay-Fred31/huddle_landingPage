@@ -53,9 +53,9 @@ Users should be able to:
 
 ### What I learned
 
-I picked this project because I wanted to try my hands on creating a reponsive website. I learnt that it is always better to start from little add-ons like colors, typograpghy before moving on to the functionality of the webpage. 
+I picked this project because I wanted to try my hands at creating a responsive website. I learned that it is always better to start with little add-ons like colors, and typography before moving on to the functionality of the webpage. 
 
-This style helped me to work through the needs of the webpage without overwheming my stylesheet with too much complicated things at the beginning stage of my design while achieving a fully responsive design.
+This style helped me to work through the needs of the webpage without overwhelming my stylesheet with too much-complicated things at the beginning stage of my design while achieving a fully responsive design.
 
 
 ### Continued development
