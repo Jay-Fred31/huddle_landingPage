@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://huddle-landing-page-eight-theta.vercel.app/)
+- Live Site URL: [huddle-landing-page](https://huddle-landing-page-eight-theta.vercel.app/)
 
 ## My process
 
